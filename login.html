@@ -2,14 +2,51 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>國泰 VIP 專頁</title>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="css/login.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container">
+<header id="header">
+
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="https://polomilky.github.io/demo-1/"><img src="images/tree.png" alt="logo" style="align:middle;padding:6%;"></a>
+                </div>
+                
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="https://polomilky.github.io/demo-1/">Home</a></li>
+                        <li><a href="http://vip.idanbird.net/美食/" target="food">享食尚</a></li>
+                        <li><a href="http://vip.idanbird.net/住宿/" target="room">享趣住</a></li>
+                        <li class="dropdown">  
+                            <a href="portfolio.html" class="dropdown-toggle" data-toggle="dropdown">享旅遊 <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://vip.idanbird.net/機場接送/" target="airplane">機接預約</a></li>
+                                <li><a href="http://vip.idanbird.net/出國/漫遊吧/" target="wifi">Wi-Fi租借</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://vip.idanbird.net/玩樂/電影/" target="movie">享娛樂</a></li>
+                        <li><a href="https://polomilky.github.io/demo-1/portfolio1.html">享健檢</a></li> 
+                        <li class="active"><a href="index.html">享會員</a></li>
+                        <li><a href="https://polomilky.github.io/demo-1/contact-us.html">享發問</a></li>
+                        <li><a href="https://polomilky.github.io/demo-1/login.html"><span data-toggle="tab" class="glyphicon glyphicon-log-in"></span> Log in</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+        
+    </header><!--/header-->
+
         <div class="row vertical-offset-100">
             <div class="col-md-4 col-md-offset-4">
                 <div class="panel panel-default">
@@ -32,6 +69,6 @@
                 </div>
             </div>
         </div>
-    </div>
+
 </body>
 </html>
