@@ -8,6 +8,23 @@
   font-family: 'Microsoft JhengHei';
 }
 
+ul>li{
+  font-size: 20px;
+}
+
+.plan-signup>a{
+  font-size: 22px;
+}
+
+.container>.navbar-header{
+  margin-left: -12%;
+/*  margin-top: 5%;*/
+}
+
+.media-body > p{
+  font-size: 18px;
+}
+
 body {
   background: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -640,7 +657,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', end
   font-weight: 900;
 }
 .recentdirect {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 
@@ -1755,7 +1772,7 @@ ul.social_icons li  a i{
 .pricing-area ul li {
   list-style: none;
   padding: 15px 0;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 
